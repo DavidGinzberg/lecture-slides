@@ -127,7 +127,7 @@ class SUV extends Vehicle{
 ### Example: Corgi
 ```
 class Dog{public void wag(){...}}
-public class Corgi{
+public class Corgi extends Dog{
   public static void main(String[] args){
     Corgi bucket = new Corgi();
     bucket.wag();
