@@ -57,7 +57,7 @@ interface PointingDevice{
   void rightClick();
   void scrollUp();
   void scrollDown();
-
+}
 ```
 
 -
