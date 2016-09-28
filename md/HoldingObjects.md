@@ -89,8 +89,8 @@ Slightly more features than Iterators:
 -
 ## Utility Classes
 
-- Collections
-- Arrays
+- [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html)
+- [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html)
 
 -
 ### "Simple" Container diagram
