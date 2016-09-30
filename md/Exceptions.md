@@ -39,7 +39,7 @@ static int getArraySizeWithErrorCode(int[] intArray){
 
 ```
 static boolean withdrawFromAcctWErrorCode(int amount, Account acct){
-  if(acct.getBalance < amount) { return false; }
+  if(acct.getBalance() < amount) { return false; }
   acct.setBalance(acct.getBalance() - amount);
   return true;
 }
@@ -194,8 +194,8 @@ catch(Exception e){
 ### Counting list elements with exceptions
 
 ```
-static int getArraySizeWithException 
-           throws NullPointerException (int[] intArray) {
+static int getArraySizeWithException(int[] intArray) 
+           throws NullPointerException  {
   if(intArray == null) {
     throw new NullPointerException("Int array was null");
   }
