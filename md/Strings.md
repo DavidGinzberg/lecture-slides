@@ -98,6 +98,8 @@ When overriding `toString()` if you want to print the result of the original `to
 
 `%[argument_index$][flags][width][.precision]conversion`
 
+[Example](https://repl.it/DrIh/2)
+
 -
 
 
