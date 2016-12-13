@@ -177,6 +177,7 @@ The project that a repo was forked from is often referred to as the "upstream" r
 - [Github Guides](https://guides.github.com/)
 - [Code School Try Git](https://www.codeschool.com/courses/try-git)
 - [Codecademy Learn Git](https://www.codecademy.com/courses/learn-git)
+- [Git and Github in Plain English](https://red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
 
 -
 -
