@@ -198,7 +198,7 @@ public Foo(int x){
 ### Member Initialization
 
 All class members are initialized to default values  
-0, `false`, or `' '` for primitives.  
+0, `false`, or [`'U+0000'`](https://unicode-table.com/en/#0000) for primitives.  
 `null` for object references.  
 Static members are initialized the first time that class is referenced.  
 Local variables (inside methods) are not auto-initialized.
