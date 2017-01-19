@@ -12,7 +12,7 @@ Objects can contain references to other objects
 -
 ### Composition provides access to functionality
 
-- Member objects' methods and values can be used inside of the containing object's 
+- Member objects' methods and values can be used inside of the containing object's
 
 -
 ### Composition is a "has a" relationship
@@ -42,7 +42,7 @@ class House{
 -
 ### Example: Unicycle
 
-A unicycle **has** a wheel and a seat.
+A unicycle **has** a wheel and a seat. ([Full example](https://repl.it/FOlA/1) )
 
 ```Java
 class Unicycle{
@@ -79,7 +79,7 @@ class Chair{
 - Subject to the same access modifiers as primitives and methods
 - Often kept private, with access methods handling access to member objects
  - This helps to decouple implementation from interface
- - In some cases public member objects are sensible 
+ - In some cases public member objects are sensible
 
 -
 -
@@ -134,6 +134,8 @@ public class Corgi extends Dog{
   }
 }
 ```
+
+[Full example](https://repl.it/FMrL/0)
 
 -
 ### Upcasting
@@ -228,7 +230,7 @@ public class Bar extends Foo{}
 ```
 
 ```
-$ javac Bar.java 
+$ javac Bar.java
 Bar.java:1: error: cyclic inheritance involving Foo
 class Foo extends Bar{}
 ^
@@ -281,13 +283,13 @@ class Dog {
 class MultilingualDog extends Dog {
   public void speak(String language){
     switch(language){
-      case "Spanish": 
+      case "Spanish":
           System.out.println("Guau guau!");
           break;
-      case "Japanese": 
-          System.out.println("ワンワン"); // "wan wan" 
+      case "Japanese":
+          System.out.println("ワンワン"); // "wan wan"
           break;
-      default: 
+      default:
           System.out.println("Bow wow!");
 }}}
 
