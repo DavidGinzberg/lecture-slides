@@ -107,7 +107,7 @@ public class FieldAccess {
     Soup soup = new Stew(); // Upcast
     System.out.println("soup.field = " + soup.field +
       ", soup.getField() = " + soup.getField());
-    Sub sub = new Sub();
+    Stew sub = new Stew();
     System.out.println("sub.field = " +
       sub.field + ", sub.getField() = " +
       sub.getField() +
