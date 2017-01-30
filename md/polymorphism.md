@@ -34,7 +34,7 @@ A solid understanding of inheritance will help to clarify the concepts covered h
 
 -
 ##### Example 1 continued
-```
+```Java
 class Animal {}
 interface Rideable{ int getRange(); }
 class Horse extends Animal implements Rideable{
@@ -54,7 +54,7 @@ class RoboticHorse extends Horse implements Robot{
 -
 ##### Example 1 continued
 
-```
+```Java
 public class App{ 
   public static void ride(Rideable mount){ 
     System.out.println("I can ride " + mount.getRange() + " miles today.");
@@ -85,7 +85,7 @@ public class App{
 
 -
 
-```
+```Java
 //: polymorphism/FieldAccess.java
 // Direct field access is determined at compile time.
 class Super {
@@ -101,7 +101,7 @@ class Sub extends Super {
 
 -
 
-```
+```Java
 public class FieldAccess {
   public static void main(String[] args) {
     Super sup = new Sub(); // Upcast
@@ -161,7 +161,7 @@ Separate interface from implementation
 -
 ##### Person class example:
 
-```
+```Java
 public class Person{
   private String language;
   public Person(){ this.language = "English"; }
@@ -191,7 +191,7 @@ public class Person{
 -
 ##### Person class refactored:
 
-```
+```Java
 class Person{
   protected String language = "English";
   public String getLanguage(){ return language; }
@@ -217,7 +217,7 @@ public class App{
 -
 ##### Person class refactored as abstract class:
 
-```
+```Java
 abstract class Person{
   protected String language;
   public String getLanguage(){ return language;}
