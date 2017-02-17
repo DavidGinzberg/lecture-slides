@@ -1,17 +1,23 @@
-#Lecture Template
-
+#Robocode Basics
 
 
 -
 -
-#First Slide
+#Robocode is...
 
-lorem ipsum dolor sit amet
+
 
 -
-# New sub-slide using `-\n`
+# Code
 
-Some content
+-
+# Robots
+
+-
+# Fighting
+
+-
+# In Java
 
 
 -
