@@ -97,6 +97,20 @@ After Java 7:
 `List<Foo> sList = new ArrayList<>()`
 
 -
+##### `<>` in action
+
+**Before**:  
+```Java
+List<Map<String, AbstractProblemFactory<UnsolvableProblem>>> =
+    new ArrayList<Map<String, AbstractProblemFactory<UnsolvableProblem>>>();
+```
+
+**After**:  
+```Java
+List<Map<String, AbstractProblemFactory<UnsolvableProblem>>> = new ArrayList<>();
+```
+
+-
 ### Primitive types cannot be type parameters
 
 Example:
