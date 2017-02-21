@@ -101,13 +101,13 @@ After Java 7:
 
 **Before**:  
 ```Java
-List<Map<String, AbstractProblemFactory<UnsolvableProblem>>> =
-    new ArrayList<Map<String, AbstractProblemFactory<UnsolvableProblem>>>();
+List<Map<String, AbstractProblemFactory>> =
+    new ArrayList<Map<String, AbstractProblemFactory>>();
 ```
 
 **After**:  
 ```Java
-List<Map<String, AbstractProblemFactory<UnsolvableProblem>>> = new ArrayList<>();
+List<Map<String, AbstractProblemFactory>> = new ArrayList<>();
 ```
 
 -
