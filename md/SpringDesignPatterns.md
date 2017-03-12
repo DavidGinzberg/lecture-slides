@@ -1,21 +1,14 @@
-#Lecture Template
-
-
+#Design Patterns in Java Spring
 
 -
 -
-#First Slide
+#Patterns found in Spring
 
-lorem ipsum dolor sit amet
-
--
-# New sub-slide using `-\n`
-
-Some content
-
-
--
--
-# New slide using `-\n-\n`
-
-More content
+- Singleton
+- Dependency Injection
+- MVC
+- Prototype
+- Front Controller
+- Factory/Abstract Factory
+- Template Method
+- ..many more
