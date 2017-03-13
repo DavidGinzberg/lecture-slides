@@ -1,7 +1,6 @@
 #Design Patterns in Java Spring
 
 -
--
 #Patterns found in Spring
 
 - Singleton
